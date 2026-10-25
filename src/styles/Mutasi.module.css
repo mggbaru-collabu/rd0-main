@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+th,
+td {
+  border: 1px solid grey;
+}
+table {
+  border: 1px solid grey;
+}
+
+.copy {
+  margin-bottom: 8px;
+  height: 30px;
+}
+
+div.left {
+  flex: 1;
+}
+div.right {
+  flex: 2;
+}
+
+div.right > *,
+div.left > * {
+  width: 100%;
+}
